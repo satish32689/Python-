@@ -1,0 +1,15 @@
+#With arguments and return value 
+def swap(x,y): 
+    print("before swaping",x)
+    print("before swaping",y)
+ 
+    x,y=y,x
+    return x,y 
+
+a=int(input("Enter value : "))
+b=int(input("Enter value : "))    
+a,b=swap(a,b) 
+print("After swapping a becomes :",a)
+print("After swapping b becomes :",b)
+
+
