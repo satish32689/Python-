@@ -1,0 +1,4 @@
+#satish-readline
+with open("example.txt") as file:
+
+  print(file.readlines())
