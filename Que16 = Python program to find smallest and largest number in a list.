@@ -1,0 +1,9 @@
+list = [225, 65, 456, 934, 653, 678]
+
+smallest = min(list)
+
+largest = max(list)
+
+print(f"The smallest number in the list is {smallest}")
+
+print(f"The largest number in the list is {largest}")
