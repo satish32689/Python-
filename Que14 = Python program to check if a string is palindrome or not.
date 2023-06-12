@@ -1,0 +1,15 @@
+def is_palindrome(s):
+
+return s == s[::-1]
+
+string = input("Enter a string: ")
+
+result = is_palindrome(string)
+
+if result:
+
+print(f"{string} is a palindrome")
+
+else:
+
+print(f"{string} is not palindrome")
