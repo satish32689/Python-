@@ -1,0 +1,13 @@
+def sum_array(arr):
+
+sum = 0
+
+for i in arr:
+
+sum += i
+
+return sum
+
+arr = [1, 5, 9, 3, 2]
+
+print("The sum of the array is", sum_array(arr))
